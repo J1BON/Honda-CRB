@@ -24,7 +24,8 @@ header {
 .review h1,
 .faq h1,
 .gallery h1,
-.subs-title h1 {
+.subs-title h1,
+.l-news h1 {
     font-weight: 600;
     font-size: 48px;
 }
@@ -59,9 +60,21 @@ header {
     filter: grayscale(100%);
 }
 
+/* latest-news */
+
+.l-news {
+    margin-top: 60px;
+}
+
+.card-body h3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
 /* Happy-Customer */
 .review {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .review h1 span,
