@@ -30,3 +30,79 @@ header {
     padding: 10px 46px;
     color: #ffff;
 }
+
+/* Feature-Bikes */
+.feature-bike-title {
+    margin-top: 64px;
+    margin-bottom: 100px;
+}
+
+.feature-bike-title h1 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.feature-bike-title small {
+    color: #E76F51;
+    font-size: 14px;
+}
+
+.bike-images img {
+    width: 90%;
+    height: 100%;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+/* Happy-Customer */
+.review {
+    margin-top: 50px;
+}
+
+.review h1 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.review h1 span {
+    color: #E76F51;
+}
+
+.customer-info {
+    padding: 40px 35px;
+}
+
+.customer-info img {
+    width: 149px;
+    height: 149px;
+}
+
+.squre-img img {
+    border-radius: 50%;
+    border: 1px solid#C4C4C4;
+}
+
+.name {
+    color: #23A6F0;
+}
+
+.full-star {
+    color: #E77C40;
+}
+
+/* FAQ */
+.faq {
+    margin-top: 100px;
+}
+
+.faq h1 {
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.faq h1 span {
+    color: #E76F51;
+}
