@@ -19,10 +19,18 @@ header {
     color: #E0E0E0;
 }
 
-.banner-text h1 {
-    color: #ffff;
+.banner-text h1,
+.feature-bike-title h1,
+.review h1,
+.faq h1,
+.gallery h1,
+.subs-title h1 {
     font-weight: 600;
     font-size: 48px;
+}
+
+.banner-text h1 {
+    color: #ffff;
 }
 
 .purchase-btn {
@@ -37,14 +45,9 @@ header {
     margin-bottom: 100px;
 }
 
-.feature-bike-title h1 {
-    font-weight: 600;
-    font-size: 48px;
-}
-
-.feature-bike-title small {
+.feature-bike-title p {
     color: #E76F51;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .bike-images img {
@@ -61,12 +64,10 @@ header {
     margin-top: 50px;
 }
 
-.review h1 {
-    font-weight: 600;
-    font-size: 48px;
-}
-
-.review h1 span {
+.review h1 span,
+.faq h1 span,
+.subs-title h1 span,
+.full-star {
     color: #E76F51;
 }
 
@@ -88,21 +89,28 @@ header {
     color: #23A6F0;
 }
 
-.full-star {
-    color: #E77C40;
-}
-
 /* FAQ */
 .faq {
     margin-top: 100px;
 }
 
-.faq h1 {
-    margin-bottom: 50px;
-    font-weight: 600;
-    font-size: 48px;
+/* Gallery */
+.gallery {
+    margin-top: 100px;
 }
 
-.faq h1 span {
-    color: #E76F51;
+.gallery img {
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(0.9);
+}
+
+/* 
+Subscribe */
+
+.subscribe-section {
+    margin-top: 100px;
 }
