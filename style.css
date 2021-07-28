@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+
+header {
+    background: #264653;
+}
+
+/* Banner-part */
+
+.banner-text p {
+    font-weight: 300;
+    color: #E0E0E0;
+}
+
+.banner-text h1 {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.purchase-btn {
+    background: #E76F51;
+    padding: 10px 46px;
+    color: #ffff;
+}
