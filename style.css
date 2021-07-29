@@ -12,6 +12,12 @@ header {
     background: #264653;
 }
 
+.log-in {
+    background: #E76F51;
+    color: #fff;
+    width: 100px;
+}
+
 /* Banner-part */
 
 .banner-text p {
@@ -126,4 +132,17 @@ Subscribe */
 
 .subscribe-section {
     margin-top: 100px;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: #ffff;
+    padding: 40px;
+}
+
+.footer-list ul li {
+    list-style: none;
+    display: inline;
 }

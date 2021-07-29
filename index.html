@@ -5,15 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda-CBR</title>
-    <!-- Bootstarp CSS -->
+         <!-- Bootstarp CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Raw CSS -->
+          <!-- Raw CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- Font-Awsome Link -->
+         <!-- Font-Awsome Link -->
     <script src="https://kit.fontawesome.com/0fd9156f0c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+        <!-- Header -->
     <header class="container-fluid">
+        <!-- Navbar -->
+        <section class="container py-4">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav fw-bold">
+                            <a class="nav-link mx-3 text-white" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link mx-3 text-white" href="#product">Product</a>
+                            <a class="nav-link mx-3 text-white" href="#about">About us</a>
+                            <a class="nav-link mx-3 text-white" href="#contact">Contact us</a>
+                            <button class="btn log-in px-4 mx-3">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- Banner -->
         <div class="container banner">
             <div class="row d-flex justify-content-between align-items-center pb-5">
                 <div class="col-lg-7 pe-4 banner-text mb-5">
@@ -37,7 +60,7 @@
                             </div>
                             <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Understood</button>
+                            <button type="button" class="btn btn-outline-danger">Understood</button>
                             </div>
                         </div>
                         </div>
@@ -49,6 +72,7 @@
             </div>
         </div>
     </header>
+         <!-- main-part -->
     <main>
         <!-- feature-bike -->
         <section class="container feature-bike">
@@ -69,23 +93,20 @@
             </div>
         </section>
         <!-- Latest-News -->
-        <div class="container l-news">
+        <article class="container l-news">
             <h1 class="my-5 text-center">Latest News</h1>
             <div class="row gy-3">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card card-items p-4 shadow-lg">
                         <div class="card-img d-flex justify-content-center align-items-center">
-                            <img src="images/bike-1.png" class="card-img-top img-fluid" alt="..."> 
+                            <img src="images/bike-1.png" class="card-img-top" alt="..."> 
                         </div>
                         <div class="card-body px-0">
                           <h3 class="card-title">Ducati XDIAVEL S-73</h3>
-                          <p class="card-text text-muted">Lorem Ipsum is simply dummy text of the 
-                            printing and typesetting industry.</p>
+                          <p class="card-text text-muted">The new XDiavel Black Star version embodies the sports side of the Ducati cruiser, with a livery and equipment inspired by the world of sports cars.</p>
                         </div>
-                        <div class="price">
-                            <div class="buy">
-                                <button class="btn btn-outline-danger px-3 py-2">Read More</button>
-                            </div>
+                         <div>
+                             <button class="btn btn-outline-danger px-3 py-2">Read More</button>
                         </div>
                       </div>
                 </div>
@@ -95,11 +116,10 @@
                             <img src="images/bike-2.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body px-0">
-                          <h3 class="card-title">Motorcycles & Scooters </h3>
-                          <p class="card-text text-muted">Lorem Ipsum is simply dummy text of the 
-                            printing and typesetting industry.</p>
+                          <h3 class="card-title">Yamaha R15</h3>
+                          <p class="card-text text-muted">The Yamaha YZF-R15 is a single cylinder sport bike made by Yamaha Motor Company since 2008. In September 2011, the second iteration</p>
                         </div>
-                        <div class="price">
+                        <div>
                             <button class="btn btn-outline-danger px-3 py-2">Read More</button>
                         </div>
                       </div>
@@ -111,16 +131,15 @@
                         </div>
                         <div class="card-body px-0">
                           <h3 class="card-title">2021 Honda CBR500R </h3>
-                          <p class="card-text text-muted">Lorem Ipsum is simply dummy text of the 
-                            printing and typesetting industry.</p>
+                          <p class="card-text text-muted">The Honda CBR250R, CBR300R and CB300F are lightweight 249.5–286 cc displacement single-cylinder motorcycles made by Honda since 2011.</p>
                         </div>
-                        <div class="price">
+                        <div>
                             <button class="btn btn-outline-danger px-3 py-2">Read More</button>
                         </div>
                       </div>
                 </div>
             </div>
-        </div>
+        </article>
         <!-- Feedback Section -->
         <section class="container review">
             <h1 class="text-center mb-5">Happy <span>Clients says</span></h1>
@@ -129,10 +148,7 @@
                     <div class="card customer-info align-items-center">
                         <img src="images/user-1.png" class="card-img-top" alt="...">
                         <div class="card-body text-center pb-0">
-                          <p class="card-text">Slate helps you see how 
-                            many more days you need 
-                            to work to reach your financial 
-                            goal for the month and year.</p>
+                          <p class="card-text">I can’t recommend service enough! The quality, professionalism, and price value can’t be beaten. I’ve been extremely satisfied with each service I booked starting with repairing my old bike</p>
                             <i class="fas fa-star full-star"></i>
                             <i class="fas fa-star full-star"></i>
                             <i class="fas fa-star full-star"></i>
@@ -147,10 +163,7 @@
                     <div class="card customer-info align-items-center">
                         <img src="images/user-2.png" class="card-img-top" alt="...">
                         <div class="card-body text-center pb-0">
-                          <p class="card-text">Slate helps you see how 
-                            many more days you need 
-                            to work to reach your financial 
-                            goal for the month and year.</p>
+                          <p class="card-text">I contacted at the busiest time(during Lockdown) in his business, he was quick to respond, fully understood the problem with my Bikes, he collected them at exactly the time he said he would.</p>
                             <i class="fas fa-star full-star"></i>
                             <i class="fas fa-star full-star"></i>
                             <i class="fas fa-star full-star"></i>
@@ -165,10 +178,7 @@
                     <div class="card customer-info align-items-center squre-img">
                         <img src="images/user-3.jpg" class="card-img-top " alt="...">
                         <div class="card-body text-center pb-0">
-                          <p class="card-text">Slate helps you see how 
-                            many more days you need 
-                            to work to reach your financial 
-                            goal for the month and year.</p>
+                          <p class="card-text">Fantastic service and got my bike a lot quicker than expected. Really friendly and helpful from the moment I enquired. Highly recommended – I’ll certainly be back.Thank You for your great service</p>
                             <i class="fas fa-star full-star"></i>
                             <i class="fas fa-star full-star"></i>
                             <i class="fas fa-star full-star"></i>
@@ -182,9 +192,9 @@
             </div>
         </section>
         <!-- FAQ Section -->
-        <article class="faq container">
+        <section class="faq container">
             <h1 class="text-center mb-5">Frequently Asked <span> Questions</span></h1>
-            <blog class="row">
+            <div class="row">
                 <div class="col-lg-6 col-md-12 faq-img">
                     <img class="img-fluid p-5" src="images/faq.png" alt="">
                 </div>
@@ -240,8 +250,8 @@
                           </div>
                     </div>
                 </div>
-            </blog>
-        </article>
+            </div>
+        </section>
         <!-- GALLERY -->
         <section class="container gallery">
             <h1 class="mb-5">GALLERY</h1>
@@ -295,14 +305,36 @@
             <p class="text-center text-muted mt-3">We will never share any of your information with other entities.</p>
         </section>
     </main>
+        <!-- footer -->
     <footer class="mt-5">
-        <p class="text-center"><small>© 2020 Jibon Ahmed. All rights reserved</small></p>
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-7 mb-5">
+                    <div class="div">
+                        <a class="text-decoration-none text-white" href="#">Download Now</a>
+                        <a class="text-decoration-none text-white ms-4" href="#">License</a>
+                    </div>
+                    <div class="footer-list">
+                       <ul class="ps-0 pb-0 mt-3">
+                           <li class="ps-0 me-3"><a class="p-0" href="#"></a>About</li>
+                           <li class="me-3"><a href="#"></a>Feature</li>
+                           <li class="me-3"><a href="#"></a>Pricing</li>
+                           <li class="me-3"><a href="#"></a>Carrier</li>
+                           <li class="me-3"><a href="#"></a>Help</li>
+                           <li class="me-3"><a href="#"></a>Privacy Policy</li>
+                      </ul> 
+                     </div>
+                 </div>    
+                <div class="col-lg-5 app-down text-lg-end text-sm-start mb-3">
+                    <h4>Get the App</h4>
+                    <img src="images/app-store-png-logo-33123-128x128.ico" alt="">
+                </div>
+            </div>
+            <p class="text-muted"><small>© 2020 bike. All rights reserved</small></p>
+        </div>
     </footer>
 
-
-
-
-    <!-- Bootstarp JS -->
+         <!-- Bootstarp JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
